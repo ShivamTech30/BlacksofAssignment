@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap"); */
+
+
+:root {
+  --primary: #2563eb;
+  --secondary: #4f46e5;
+  --dark: #0f172a;
+  --light: #f8fafc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+body{
+  font-family: 'Manrope', sans-serif;
+  /* font-family: "Manrope"; */
+
+}
+.font_family{
+  /* max-width: 500px;
+  margin: 0 auto; */
+  font-family: "Manrope", system-ui, sans-serif;
+  /* line-height: 1.6;
+  padding: 1rem; */
+}
+
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+ 
+
+.main-footer{
+  
+  background-image: url(https://supreme-group.vercel.app/static/media/footer.dbe7db48d54962232591.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+   
+}
+
+.bootom-hight-spacing li{
+  padding: 7px 7px;
+  color: #000000B2;
+  font-weight: 500;
+}
+/* .swiper-pagination-bullet{
+background-color: red !important;
+} */
+.swiper-pagination-bullet{
+  margin-top: 20px;
+  background: #f8fafc !important;
+  opacity: 0.7 !important;
+}
+.swiper-pagination-bullet-active{
+  background: #3e8fe1 !important;
+  opacity: 1 !important;
+}
+/* swiper-pagination-bullet swiper-pagination-bullet-active */
